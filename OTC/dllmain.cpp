@@ -73,7 +73,7 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         
         logger.Space ();
 
-        logger.Info ("Welcome to OTC Loader.");
+        logger.Info ("This is the loader of volibear.cc");
 
         logger.Space (2);
 
@@ -101,8 +101,8 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         logger.Info ("| [~] Updating watermark...");
 
         //TODO: Waiting you beatiful name.
-        segment.GetFramework().UpdateWatermark ("Powered by OTC", getenv ("USERNAME"));
-        segment.GetFramework().UpdateMenuWatermark ("Nightly IO ");
+        segment.GetFramework().UpdateWatermark ("Powered by volibear dev", getenv ("dinu#6124"));
+        segment.GetFramework().UpdateMenuWatermark ("Volibear.cc ");
 
         logger.Info ("| [~] Invoking OEP...");
        
@@ -112,7 +112,7 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         //Hide menu for better log look.
         segment.GetFramework().SetMenuStatus (false);
 
-        logger.Info ("| [+] OTC initialized.");
+        logger.Info ("| [+] volibear.cc initialized.");
 
         logger.Space ();
        
@@ -129,10 +129,10 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         logger.Info ("| Crack |                                    |");
         logger.Info ("|-------+                                    |");
         logger.Info ("|                                            |");
-        logger.Info ("| toast - module dumper.                     |");
-        logger.Info ("| wzn   - module reconstruction.             |");
-        logger.Info ("| d3x   - disassembly & advice.              |");
-        logger.Info ("| 0x000cb - Current reverse & patch staff.   |");
+        logger.Info ("| dinu  - module dumper.                     |");
+        logger.Info ("| dinu  - module reconstruction.             |");
+        logger.Info ("| dinu  - disassembly & advice.              |");
+        logger.Info ("| dinu    - Current reverse & patch staff.   |");
         logger.Info ("|--------------------------------------------|");
         logger.Info ("|                                            |");
         logger.Info ("|---------+----------------------------------|");
